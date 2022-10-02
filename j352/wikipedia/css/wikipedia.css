@@ -1,0 +1,38 @@
+h1{
+    font-size: 3em;
+    color: #595959 ;
+    font-family: 'Kanit', sans-serif;
+    text-align: center
+}
+h2{
+    font-size: 2em;
+    color: #08D694;
+    font-family:'Ubuntu', sans-serif;
+    text-align: center
+
+}
+b{
+    font-size: 1em;
+    color: #989898;
+    font-family:'Ubuntu', sans-serif; 
+    font-style: italic;
+}
+p{
+    font-size: 1em;
+    color: #000;
+    font-family:'Ubuntu', sans-serif; 
+    font-style: normal    ;
+}
+
+h3{ font-size: 1.25em;
+    color: #000;
+    font-family:'Ubuntu', sans-serif; 
+    font-style: italic;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;}
+
+    #banner{ color: pink;
+    background-color: aliceblue;}
