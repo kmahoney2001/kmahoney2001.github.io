@@ -1,0 +1,65 @@
+body {
+
+    background-color: #FAF7F3;
+}
+
+h1,
+.navbar-brand {
+    font-size: 3em;
+    font-family: 'Barlow Semi Condensed';
+    text-transform: lowercase;
+    color: #9A2727;
+}
+
+.menu a,
+a,
+.address,
+.address a:hover {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #D66C6C;
+    display: block;
+    letter-spacing: .1em;
+
+}
+
+.menu,
+.menu a {
+    background: #f8DCD1;
+    padding: 0 .5em;
+
+}
+
+.menu a:hover {
+    color: whitesmoke;
+}
+
+.address {
+    font-size: .8em;
+}
+
+.blurb {
+    text-align: justify;
+}
+
+footer {
+    font-family: 'Barlow Semi Condensed';
+    font-size: .8em;
+    line-height: 0;
+    text-transform: uppercase;
+}
+
+.blurb {
+    margin: 2em 0 0 0;
+}
+
+@media (max-width:400px) {
+    .blurb {
+        margin: 0 0 2em 0;
+    }
+
+    .menu,
+    .address {
+        margin: 2em 0;
+    }
+}
