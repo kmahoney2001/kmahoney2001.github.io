@@ -1,0 +1,88 @@
+body {
+
+    background-color: white;
+}
+
+h1,
+.navbar-brand {
+    font-size: 5em;
+    font-family: 'Oswald', monospace;
+    text-transform: uppercase;
+    color: black;
+    margin-bottom: 50px;
+}
+
+.navigation a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ff4372;
+    display: block;
+    letter-spacing: .1em;
+    font-family: 'Noto Sans Mono', sans-serif;
+    font-size: small;
+
+}
+
+.navigation a:hover {
+    color: #7d7b7b;
+}
+
+.contact {
+    text-align: center;
+    margin-top: 50px;
+    font-size: .8em;
+    color: #ff4372;
+    text-decoration: none;
+}
+
+.blurb {
+    margin-top: 50px;
+    text-align: center;
+    color: #7d7b7b;
+    font-size: larger;
+    
+}
+
+footer {
+    margin-top: 50px;
+    font-family: 'Barlow Semi Condensed';
+    font-size: .8em;
+    line-height: 0;
+    text-transform: uppercase;
+    color: #7d7b7b;
+}
+
+h1 {
+    margin-top: 50px;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    letter-spacing: 8px;
+    padding: 10px;
+    color: #ff4372;
+    font-size: small;
+}
+
+.intern, .artt200{ 
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    display: block;
+    letter-spacing: .1em;
+    background: #7d7b7b;
+    padding: 0 .5em;
+    text-align: center;
+    font-size: medium;
+
+}
+
+.intern :hover {
+    color: #ff4372;
+}
+
+.artt200 :hover{
+    color: #ff4372;
+}
+
+.intern a, .artt200 a{
+    text-transform: lowercase;
+}
