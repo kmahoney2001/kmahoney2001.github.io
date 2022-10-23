@@ -1,0 +1,63 @@
+h1,
+h2 {
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: .1em;
+    padding: .5em;
+    color: #000;
+    text-transform: uppercase;
+    margin: 4em 0 0 0;
+}
+
+h1 {
+    margin: 1em 0 0 0;
+    font-size: 5em;
+}
+
+h2 {
+    margin: 3em 0;
+}
+
+
+.navigation a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ff4372;
+    letter-spacing: .1em;
+    display: inline;
+    padding: 0 1em 00;
+    font-family: 'Noto Sans Mono', sans-serif;
+    font-size: .75em;
+}
+
+.navigation a:hover {
+    color: #7d7b7b;
+}
+
+.verticals {
+    padding: 0.125em .125em .125em .125em;
+}
+
+.horizontals {
+    padding: 0.125em .125em .125em .125em;
+}
+
+.work {
+    margin: 2.5em 0 0 0;
+    color: #7d7d7d;
+    font-size: 1em;
+    font-family: 'Oswald', sans-serif;
+}
+
+.work a {
+    text-decoration: none;
+    color: #ff4372;
+    margin: 1em 0;
+    letter-spacing: .1em;
+    padding: .5em 0;
+    font-family: 'Noto Sans Mono', sans-serif;
+    font-size: .5em;
+}
+
+.work a:hover {
+    color: #ffa6bd;
+}
