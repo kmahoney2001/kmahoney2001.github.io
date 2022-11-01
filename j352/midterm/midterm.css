@@ -1,0 +1,109 @@
+nav {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2em;
+    text-align: center;
+    margin: 5px 0 0 3px;
+}
+
+body {
+    font-family: 'Literata', sans-serif;
+    font-size: 15px;
+    color: #152128;
+    background-color: #F4F5F8
+}
+
+footer,
+footer a:link {
+    font-family: 'Work Sans 200', sans-serif;
+    font-weight: lighter;
+    margin: 1em 0 10em;
+    font-size: 1em;
+    color: black;
+
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+footer a {
+    text-decoration: underline black;
+}
+
+h3 {
+    font-size: 15px;
+}
+
+.charts {
+    border-bottom: 1px dotted #9DB4AB;
+    font-size: 1em;
+}
+
+.graphic {
+    background-color: #EAEAEA;
+}
+
+h3,
+.graphic {
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+    padding: .2em 0 .2em;
+}
+
+.graphic p {
+    font-size: .8em;
+}
+
+h1,
+h2,
+.byline {
+    text-align: center;
+}
+
+h1,
+.timeless {
+    font-size: 1.5em;
+}
+
+h1 {
+    padding: 10em 0 .75em;
+}
+
+h2 {
+    font-size: 1em;
+    padding: 0 0 .75em;
+}
+
+.byline {
+    font-size: .9em;
+}
+
+.spotify {
+    color: #1DB954;
+}
+
+.article {
+    padding: 35em 0 0 0;
+}
+
+.responsive {
+    width: 50%;
+    height: auto;
+}
+
+@media (max-width:450px) {
+    .graphic {
+        font-size: .8em;
+    }
+
+    .responsive {
+        width: 100%;
+        height: auto;
+    }
+
+    .article {
+        padding: 2em 0 0 0;
+    }
+
+}
