@@ -1,6 +1,13 @@
 h1,
-p {
+p,
+.graphic {
   text-align: center;
+}
+
+.virtual {
+  padding: 10em;
+  color: black;;
+
 }
 
 h1 {
@@ -12,7 +19,7 @@ h1 {
 
 p {
   font-size: 1.5em;
-  padding: 1em;
+  padding: .2em;
   text-align: center;
 }
 
@@ -27,9 +34,6 @@ h2 {
   padding: 0em 2em 10em 2em;
 }
 
-.graphic {
-  align-items: center;
-}
 
 h3 {
   font-size: 3em;
@@ -38,15 +42,9 @@ h3 {
   text-align: center;
   display: block;
   background-color: red;
-  block-size: 5em;
+  block-size: 1.25em;
 }
 
-.img-fluid{
-  height: 1000px;
-  width: 440px;
-  padding: 10em 2em 2em 2em;
-}
-
-.past{
+.past {
   padding: 10em
 }
