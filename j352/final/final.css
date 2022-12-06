@@ -52,3 +52,13 @@ h3 {
   font-size: .5em;
   text-align: center;
 }
+
+@media (max-width:450px) {
+    h1 {
+        font-size: 4em;
+    }
+
+    .virtual{
+      padding: 1em;
+    }
+}
